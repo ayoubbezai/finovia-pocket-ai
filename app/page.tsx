@@ -669,7 +669,7 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen scrollbar-custom overflow-y-auto overflow-x-hidden relative">
+    <div className="min-h-screen scrollbar-custom overflow-y-auto bg-white overflow-x-hidden relative">
   {/* Background that covers entire page (overlayed above section backgrounds but under textual content/cards) */}
   <div className="fixed inset-0 w-full h-full pointer-events-none z-10">
         <div
